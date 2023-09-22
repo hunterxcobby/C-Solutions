@@ -1,3 +1,4 @@
+
 ---
 
 # Integer Sum Calculator
@@ -7,6 +8,9 @@ This program calculates the sum of two given integers, `num1` and `num2`.
 ## Table of Contents
 - [Problem](#problem)
 - [Solution](#solution)
+  - [Intuition](#intuition)
+  - [Approach](#approach)
+  - [Complexity](#complexity)
 - [Example Usage](#example-usage)
   - [Example 1](#example-1)
   - [Example 2](#example-2)
@@ -18,7 +22,23 @@ Given two integers `num1` and `num2`, return the sum of the two integers.
 
 ## Solution
 
-The solution involves adding `num1` and `num2` together to obtain the result.
+### Intuition
+The problem requires finding the sum of two integers, which is a straightforward mathematical operation.
+
+### Approach
+The approach is to define a function `sum` that takes two integer parameters `num1` and `num2`. Inside the function, we add `num1` and `num2` together and return the result.
+
+### Complexity
+- **Time complexity**:
+  The time complexity of this function is constant, denoted as O(1), since the addition operation takes a constant amount of time regardless of the input values.
+
+- **Space complexity**:
+  The space complexity is also constant, denoted as O(1), as the function only uses a fixed amount of memory to store the input parameters and the result.
+
+```python
+def add_numbers(num1, num2):
+    return num1 + num2
+```
 
 ## Example Usage
 
@@ -43,4 +63,3 @@ Explanation: num1 + num2 = -6, so -6 is returned.
 - `num1` and `num2` are integers in the range of -100 to 100.
 
 ---
-
