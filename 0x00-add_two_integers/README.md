@@ -35,11 +35,6 @@ The approach is to define a function `sum` that takes two integer parameters `nu
 - **Space complexity**:
   The space complexity is also constant, denoted as O(1), as the function only uses a fixed amount of memory to store the input parameters and the result.
 
-```python
-def add_numbers(num1, num2):
-    return num1 + num2
-```
-
 ## Example Usage
 
 ### Example 1:
