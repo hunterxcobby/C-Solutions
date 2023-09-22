@@ -1,5 +1,3 @@
-Certainly! Here's an updated version of the README file with a table of contents:
-
 ---
 
 # Integer Sum Calculator
