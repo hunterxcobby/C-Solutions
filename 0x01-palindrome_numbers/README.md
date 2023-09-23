@@ -27,7 +27,7 @@ Given an integer `x`, return `true` if `x` is a palindrome, and `false` otherwis
 ### Intuition
 My initial approach involved extracting the first and last digits for comparison. However, I later found that this method did not cover all cases. I then switched to converting the integer to a string, which proved to be effective.
 
-#### NB: The first file is the solution to the first approach and the second file is the second approach which is more effedtive.
+#### NB: The first file is the solution to the first approach and the second file is the second approach which is more effective.
 
 ### Approach
 The program first checks if `x` is a negative number. If it is, the function returns `false` since negative numbers cannot be palindromes.
