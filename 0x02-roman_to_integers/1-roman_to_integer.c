@@ -1,12 +1,16 @@
+/* Function to get the integer value of a Roman numeral character */
 int getValue(char c);
 
+/* Function to convert a Roman numeral string to an integer */
 int romanToInt(char *s)
 {
     int total_value = 0;
     int n = strlen(s);
 
+    /* Loop through the characters in the Roman numeral string */
     for (int i = 0; i < n; i++)
     {
+        /* Check if the current numeral is smaller than the next numeral */
         if (i < n - 1 && getValue(s[i]) < getValue(s[i + 1]))
         {
             total_value -= getValue(s[i]);
@@ -20,8 +24,10 @@ int romanToInt(char *s)
     return total_value;
 }
 
+/* Function to get the integer value of a Roman numeral character */
 int getValue(char c)
 {
+    /* Switch statement to return the value corresponding to the Roman numeral */
     switch (c)
     {
         case 'I':
@@ -39,6 +45,6 @@ int getValue(char c)
         case 'M':
             return 1000;
         default:
-            return 0;
+            return 0; /* Return 0 for unknown characters */
     }
 }
