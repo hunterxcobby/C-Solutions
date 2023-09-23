@@ -52,8 +52,8 @@ The problem involves converting Roman numerals to their corresponding integer va
 5. Return the total value.
 
 ### Complexity
-- Time complexity: O(n), where n is the length of the Roman numeral string. We iterate through the string once.
-- Space complexity: O(1), as we use a fixed amount of additional memory to store variables and perform operations.
+- Time complexity: $$O(n)$$, where \(n\)n is the length of the Roman numeral string. We iterate through the string once.
+- Space complexity: $$O(1)$$, as we use a fixed amount of additional memory to store variables and perform operations.
 
 ## Example Usage
 
