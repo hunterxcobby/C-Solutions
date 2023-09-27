@@ -1,3 +1,11 @@
+/**
+ * lengthOfLastWord - A function that returns
+ * the length of the last word in a string.
+ *
+ * @s: the string
+ * Return: the length of the string
+ */
+
 int lengthOfLastWord(char *s)
 {
 
