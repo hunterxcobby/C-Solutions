@@ -1,12 +1,10 @@
 ---
 
-# Two Sum
+# Length Of Last Word
 
-Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
+Given a string s consisting of words and spaces, return the _length of the **last** word in the string._
 
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-
-You can return the answer in any order.
+A word is a maximalsubstring consisting of non-space characters only.
 
 ## Table of Contents
 - [Example](#example)
@@ -14,7 +12,6 @@ You can return the answer in any order.
   - [Example 2](#example-2)
   - [Example 3](#example-3)
 - [Constraints](#constraints)
-- [Follow-up](#follow-up)
 - [Solution](#solution)
   - [Intuition](#intuition)
   - [Approach](#approach)
@@ -26,35 +23,32 @@ You can return the answer in any order.
 ### Example 1:
 
 ```
-Input: nums = [2,7,11,15], target = 9
-Output: [0,1]
-Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+Input: s = "Hello World"
+Output: 5
+Explanation: The last word is "World" with length 5.
 ```
 
 ### Example 2:
 
 ```
-Input: nums = [3,2,4], target = 6
-Output: [1,2]
+Input: s = "   fly me   to   the moon  "
+Output: 4
+Explanation: The last word is "moon" with length 4.
 ```
 
 ### Example 3:
 
 ```
-Input: nums = [3,3], target = 6
-Output: [0,1]
+Input: s = "luffy is still joyboy"
+Output: 6
+Explanation: The last word is "joyboy" with length 6.
 ```
 
 ## Constraints
 
-- 2 <= nums.length <= 10^4
-- -10^9 <= nums[i] <= 10^9
-- -10^9 <= target <= 10^9
-- Only one valid answer exists.
-
-## Follow-up
-
-Can you come up with an algorithm that is less than O(n^2) time complexity?
+- `1 <= s.length <= 10^4`
+- `s` consists of only English letters and spaces `' '`.
+- There will be at least one word in s.
 
 ## Solution
 
@@ -73,6 +67,6 @@ We can solve this problem by iterating through the string in reverse order and c
 
 ## Summary
 
-The "Two Sum" problem involves finding a pair of numbers in an array that add up to a specified target value. The goal is to return the indices of these two numbers. This problem is commonly used as an introductory exercise in algorithmic problem-solving and is often encountered in coding interviews.
+The **"Length of the Last Word"** problem involves finding the length of the last word in a given string. This problem is commonly used as an introductory exercise in algorithmic problem-solving and is often encountered in coding interviews.
 
 ---
