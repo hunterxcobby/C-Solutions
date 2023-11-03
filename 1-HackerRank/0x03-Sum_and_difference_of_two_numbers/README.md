@@ -1,4 +1,3 @@
----
 
 # Integer and Float Operations in C
 
