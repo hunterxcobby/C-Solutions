@@ -1,5 +1,3 @@
-Certainly, here is the readme file for your challenge:
-
 ---
 
 # Integer and Float Operations in C
@@ -61,5 +59,3 @@ Print the sum and difference of both integers separated by a space on the first 
 - When we sum the floating-point numbers 4.0 and 2.0, we get 6.0. When we subtract the second number 2.0 from the first number 4.0, we get 2.0 as their difference.
 
 ---
-
-Please note that the solution for this challenge is not provided in this readme file, as per your request. You can use this template and provide the solution separately.
