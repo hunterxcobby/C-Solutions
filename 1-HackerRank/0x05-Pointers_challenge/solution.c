@@ -6,7 +6,8 @@ void update(int *a, int *b)
     
     *a = *a + *b;  /* Update a*/
     
-    if (temp_a > *b) {
+    if (temp_a > *b)
+    {
         *b = temp_a - *b;  /* Update b with the absolute difference */
     } 
     else 
