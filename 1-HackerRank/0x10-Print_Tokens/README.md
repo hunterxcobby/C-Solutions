@@ -1,6 +1,6 @@
 **Print Token Challenge:**
 
-This challenge involves breaking down a sentence into individual words and printing each word on a new line. The solution uses Python to achieve this, taking a sentence as input, splitting it into words, and printing each word on a new line.
+Given a sentence, , print each word of the sentence in a new line.
 
 **Input Format:**
 - The first and only line contains a sentence, `s`.
